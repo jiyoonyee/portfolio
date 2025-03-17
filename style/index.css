@@ -115,7 +115,7 @@ ol {
 
 .profile-infor {
   position: relative;
-  background-image: url(/img/mainBack.png);
+  background-image: url(../img/mainBack.png);
   background-position: center;
   background-size: cover;
 
@@ -197,7 +197,7 @@ ol {
 }
 
 .profile-img {
-  background-image: url(/img/my.png);
+  background-image: url(../img/my.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
