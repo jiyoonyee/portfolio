@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainPage</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide profile-page">
+          <div class="profile-infor">
+            <div class="profile-imgWrap">
+              <div class="profile-img"></div>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-intro">
+              <div class="profile-introWrap1">
+                <div class="profile-name">김지윤</div>
+                <div class="profile-title">성장하는 개발자</div>
+              </div>
+              <div class="profile-introWrap2">
+                <div class="profile-email">sdh230303@sdh.hs.kr</div>
+                <div class="profile-git">
+                  <a href="https://github.com/jiyoonyee"
+                    >https://github.com/jiyoonyee</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide stack-page">
+          <div class="tool-Wrap">
+            <div class="tool-image">
+              <img src="/img/gear.webp" alt="기어" />
+            </div>
+            <div class="tool-graph">
+              <img src="/img/vscode.png" alt="" />
+              <img src="/img/eclipse.png" alt="" />
+              <img src="/img/intellij.png" alt="" />
+              <img src="/img/andStudio.png" alt="" />
+            </div>
+          </div>
+          <div class="skill-graph-wrap">
+            <div class="web-skill-graph-wrap circle-graph">
+              <div class="web-skill-graph">
+                <img src="/img/react.png" alt="" />
+                <img src="/img/webStack.png" alt="" />
+                <span>web</span>
+              </div>
+            </div>
+            <div class="app-skill-graph-wrap circle-graph">
+              <div class="app-skill-graph">
+                <div>
+                  <img src="/img/flutter.png" alt="" />
+                  <img src="/img/dart.png" alt="" />
+                </div>
+                <div>
+                  <img src="/img/xml.png" alt="" />
+                  <img src="/img/java.png" alt="" />
+                </div>
+                <span>app</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
