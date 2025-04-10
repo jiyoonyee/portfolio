@@ -1,5 +1,5 @@
 const text = [
-  "MY Itroduce",
+  "MY Introduce",
   "Tools & Skills",
   "Awards & Credential",
   "Project",
@@ -14,7 +14,7 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
     clickable: true,
     renderBullet: function (index, className) {
-      return `<div class=" ${className} "><span class="sectionName">  ${text[index]} </span></div>`;
+      return `<div class=" ${className} "><div class="sectionName">  ${text[index]} </div></div>`;
     },
   },
 
